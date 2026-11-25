@@ -1,0 +1,110 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+
+# --- Environment and secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# --- Node / Vite ---
+node_modules/
+dist/
+build/
+.next/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- ML training outputs and caches ---
+runs/
+wandb/
+mlruns/
+lightning_logs/
+/fresh_models/
+/logs/
+.cache/
+
+# Model files are intentionally retained: *.pt, *.pth, *.keras, *.onnx,
+# *.h5, *.pb, *.tflite, *.bin, *.safetensors, and *.faiss
+
+# Do not commit temporary partial model downloads.
+*.onnx.tmp
+*.pt.tmp
+*.keras.tmp
+*.pth.tmp
+*.ckpt.tmp
+
+# --- Medical data and datasets ---
+rsna/
+nivara_dataset/
+training_jpegs/
+processed_images/
+*.dcm
+patient_splits.json
+nivara_patient_summary.csv
+*dicom_audit.csv
+
+# --- Generated inference/audit output ---
+visual_audit/
+jpeg_inference_results/
+yolo_laptop_results/
+yolo_test_results/
+full_test_evaluation/
+full_val_evaluation/
+threshold_experiment/
+
+# Generated predictions and reports, while keeping source scripts and configuration.
+*.predictions.jsonl
+*_predictions.csv
+*evaluation_report.json
+*inference_results.csv
+*threshold_analysis.csv
+*audit_summary.csv
+
+# --- Archives and local downloads ---
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# --- Editors and OS files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Miscellaneous generated files ---
+*.log
+*.pid
+*.pid.lock
+*.tmp

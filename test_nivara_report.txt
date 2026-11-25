@@ -1,0 +1,17 @@
+**EXAMINATION:** Chest Radiograph (PA/AP)
+
+**FINDINGS:**
+- **Lungs & Pleura:** Bilateral lung opacities are present in the mid-to-lower lung zones. There is cardiomegaly and enlarged cardiomediastinum. Borderline pulmonary consolidation or pneumonia cannot be excluded.
+- **Cardiomediastinal Silhouette:** Cardiomegaly and enlarged cardiomediastinum are present.
+- **Support Devices & Other:** No support devices detected.
+
+**IMPRESSION:**
+1. Bilateral lung opacities in the mid-to-lower lung zones, possibly representing pulmonary edema or fluid overload related to heart failure. Borderline consolidation or pneumonia cannot be excluded.
+2. Cardiomegaly and enlarged cardiomediastinum are present.
+
+**RECOMMENDATIONS:**
+- Obtain a BNP level to assess for heart failure [heart-failure-management-pocket-guide.pdf, p. 5].
+- Perform an echocardiogram to evaluate cardiac function and structure [heart-failure-management-pocket-guide.pdf, p. 6].
+- Consider serial NT-proBNP measurements to monitor disease progression or response to treatment [1143.full.pdf, p. 3].
+
+**AI DISCLAIMER:** Preliminary AI-generated report for clinical decision support only; requires confirmation by a qualified radiologist.
